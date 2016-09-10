@@ -1,0 +1,356 @@
+.subhead {
+		color: #fff;
+		text-align: center;
+	}
+    .rotate {
+	    -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+        border-radius: 50%;
+    }
+    
+    .rotate:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;   
+    }
+
+    .team {
+	    margin: 0px 0px;
+	    padding: 30px 10px;
+	    -webkit-transition:  ease-out 0.6s;
+        -moz-transition: ease-out 0.6s;
+        -o-transition: ease-out 0.6s;
+        transition: ease-out 0.6s;
+    }
+.team{
+    width: 200px;
+}
+    .job {
+        font-size: 12px;
+    }
+    
+    .team p {
+	    padding: 10px;
+    }
+    
+    .team:hover {
+	    -webkit-transition: all 0.6s linear;
+        -moz-transition: all 0.6s linear;
+        -o-transition: all 0.6s linear;
+        -ms-transition: all 0.6s linear;
+        transition: all 0.6s linear;
+    }
+    
+    .team:hover p {
+	    padding: 10px;
+    }  
+    
+   /* Team Member Images  */
+    
+    .member1 {
+        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .member2 {
+        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .member3 {
+        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .member4 {
+        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    /* Team Member Hover Images  */
+    
+    .team-member3:hover > div {
+        background: url('../img/team/backside/3.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .team-member3:hover > div {
+        background: url('../img/team/backside/3.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .team-member3:hover > div {
+        background: url('../img/team/backside/3.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .team-member3:hover > div {
+        background: url('../img/team/backside/3.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    /* TEAM MEMBER SOCIAL ICONS */
+
+    /* Team Member Hover Images  */
+    
+    .team-member2:hover > div {
+        background: url('../img/team/backside/2.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member2:hover > div {
+        background: url('../img/team/backside/2.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member2:hover > div {
+        background: url('../img/team/backside/2.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member2:hover > div {
+        background: url('../img/team/backside/2.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    /* TEAM MEMBER SOCIAL ICONS */
+
+    /* Team Member Hover Images  */
+    
+    .team-member1:hover> div {
+        background: url('../img/team/backside/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member1:hover > div {
+        background: url('../img/team/backside/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member1:hover > div {
+        background: url('../img/team/backside/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .team-member1:hover > div {
+        background: url('../img/team/backside/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    /* TEAM MEMBER SOCIAL ICONS */
+    .social-team a{
+	    padding: 0px 5px;
+    }
+    
+    .icon-social {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .twitter i:hover {
+	    color: #00aced;
+    }
+    
+    .facebook i:hover {
+	    color: #3b5998;
+    }
+    
+    .linkedin i:hover {
+	    color: #007bb6;
+    }
+    
+    .pinterest i:hover {
+	    color: #cb2027;
+    }
+    
+    .google i:hover {
+	    color: #dd4b39;
+    }
+    
+    .tumblr i:hover {
+	    color: #32506d;
+    }
+    
+    .vimeo i:hover {
+	    color: #aad450;
+    }
+    
+    .instagram i:hover {
+	    color: #3f729b;
+    }
+    
+    /* Team */
+   
+   .team {
+      -webkit-transition:  none;
+      -moz-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+    
+    .team:hover {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+    }
